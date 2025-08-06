@@ -1,0 +1,114 @@
+{
+  "RnB": {
+    "adlibs": [
+      "(yeah)",
+      "(uh-huh)",
+      "(baby)",
+      "(come on)",
+      "(right there)"
+    ],
+    "fx": [
+      "[FX: Echo]",
+      "[FX: Reverb]",
+      "[FX: Slow Fade In]"
+    ]
+  },
+  "Lo-Fi": {
+    "adlibs": [
+      "(mmm)",
+      "(so chill)",
+      "(vibe)",
+      "(uh)",
+      "(hazy)"
+    ],
+    "fx": [
+      "[FX: Vinyl Crackle]",
+      "[FX: Tape Hiss]",
+      "[FX: Lo-Pass Filter]"
+    ]
+  },
+  "Club": {
+    "adlibs": [
+      "(let's go)",
+      "(turn it up)",
+      "(yeah yeah)",
+      "(drop)",
+      "(move it)"
+    ],
+    "fx": [
+      "[FX: Bass Boost]",
+      "[FX: Delay]",
+      "[FX: Drop FX]"
+    ]
+  },
+  "Trap": {
+    "adlibs": [
+      "(skrrt)",
+      "(brrr)",
+      "(yeah)",
+      "(flex)",
+      "(lit)"
+    ],
+    "fx": [
+      "[FX: 808 Boost]",
+      "[FX: Trap Echo]",
+      "[FX: Reverse Snare]"
+    ]
+  },
+  "Pop": {
+    "adlibs": [
+      "(oh)",
+      "(na na)",
+      "(yeah)",
+      "(woo)",
+      "(alright)"
+    ],
+    "fx": [
+      "[FX: Reverb]",
+      "[FX: Harmony Layer]",
+      "[FX: Pop Delay]"
+    ]
+  },
+  "Funk": {
+    "adlibs": [
+      "(uh)",
+      "(get down)",
+      "(groove)",
+      "(woo!)",
+      "(yeaaah)"
+    ],
+    "fx": [
+      "[FX: Wah Wah]",
+      "[FX: Funky Delay]",
+      "[FX: Phaser]"
+    ]
+  },
+  "Future Soul": {
+    "adlibs": [
+      "(dreamy)",
+      "(uh)",
+      "(float)",
+      "(soar)",
+      "(mmm)"
+    ],
+    "fx": [
+      "[FX: Ambient Reverb]",
+      "[FX: Synth Delay]",
+      "[FX: Glitch Echo]"
+    ]
+  },
+  "Ballad": {
+    "adlibs": [
+      "(oh no)",
+      "(why)",
+      "(please)",
+      "(love)",
+      "(forever)"
+    ],
+    "fx": [
+      "[FX: Piano Echo]",
+      "[FX: Soft Reverb]",
+      "[FX: Fade Out]"
+    ]
+  }
+}
