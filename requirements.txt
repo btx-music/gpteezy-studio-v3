@@ -1,3 +1,4 @@
+# --- Core ---
 streamlit==1.36.0
 openai==1.35.13
 langdetect==1.0.9
@@ -5,9 +6,17 @@ pandas==2.2.2
 numpy==1.26.4
 requests==2.32.3
 Pillow
+
+# --- Env Handling ---
 python-dotenv
 
-# Voice & Audio Support
+# --- Voice & Audio Support ---
 sounddevice
 soundfile
 pydub
+
+# --- Optional: für Audio-Format-Konvertierung ---
+ffmpeg-python
+
+# --- Optional: Debugging & Utilities ---
+tqdm
