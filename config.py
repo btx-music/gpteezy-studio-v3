@@ -30,7 +30,7 @@ if not OPENAI_PROJECT_ID:
 def get_client():
     if not api_status:
         raise RuntimeError(api_error_msg)
-    return OpenAI(api_key=OPENAI_API_KEY, project=OPENAI_PROJECT_ID)
+    return OpenAI(api_key=OPENAI_API_KEY)
 
 # 🎼 Sound Optionen
 SOUND_OPTIONS = {
