@@ -12,7 +12,6 @@ load_dotenv()
 
 # 🔑 API Keys
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_PROJECT_ID = os.getenv("OPENAI_PROJECT_ID")
 
 # 🛡️ API Status
 api_status = True
@@ -20,12 +19,6 @@ api_error_msg = None
 if not OPENAI_API_KEY:
     api_status = False
     api_error_msg = "❌ Fehlender OPENAI_API_KEY in .env"
-if not OPENAI_PROJECT_ID:
-    api_status = False
-    if api_error_msg:
-        api_error_msg += " | Fehlende OPENAI_PROJECT_ID"
-    else:
-        api_error_msg = "❌ Fehlende OPENAI_PROJECT_ID in .env"
 
 def get_client():
     if not api_status:
@@ -48,7 +41,6 @@ def show_api_debug_info():
     st.sidebar.subheader("🔍 GPTeezy API-Status")
     if api_status:
         st.sidebar.success("✅ API verbunden")
-        st.sidebar.write(f"**Projekt-ID:** `{OPENAI_PROJECT_ID}`")
         st.sidebar.write(f"**API-Key:** `{OPENAI_API_KEY[:6]}...***`")
     else:
         st.sidebar.error(api_error_msg)
